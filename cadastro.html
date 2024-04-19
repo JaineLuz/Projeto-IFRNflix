@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - MyFlix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html">
+            <h1 id="p1">IFRNflix</h1>
+        </a>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="cadastro.html">Cadastre-se</a>
+                </li>
+            </ul> 
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Cadastre-se no IFRNflix</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Nome de usuário:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirme a senha:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" onclick="clicarBotao()">Cadastrar</button>
+                <script>
+                    function clicarBotao(){
+                        alert("Usuário cadastrado com sucesso!");
+                    }
+                    
+                </script>
+            </div>
+        </form>
+        <p>Já tem uma conta? <a href="login.html">Faça login</a>.</p>
+    </div>
+</body>
+</html>
+
+</body>
+</html>

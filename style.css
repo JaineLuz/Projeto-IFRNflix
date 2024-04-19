@@ -1,0 +1,160 @@
+#p1{
+    color: red;
+    font-weight: 900;
+    font-style: inherit;
+}
+#p2{
+    color: gray;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.box {
+    width: 300px; 
+    height: auto; 
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 10px;
+    display: inline-block;
+}
+.box img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease;
+}
+.box span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff; 
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.center{
+    align-items: center;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 15px;
+    background-color: rgba(16, 17, 16, 0.877);
+    height: 40px;
+    width: 100%;
+}
+
+.cabecalho .logo {
+	width: 65px;
+	height: 50px;
+	border: 2px solid #fff;
+	text-decoration: underline;
+	text-align: center;
+	line-height: 55px;
+	font-family: "Raleway", sans-serif;
+	transition: 0.2s;
+}
+
+.cabecalho a:hover {
+	color: #f02718;
+}
+
+.cabecalho .menu li a{
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 10px 20px;
+	transition: 0.2s;
+    color: #f02718;
+    margin-right: 50px;
+}
+
+.cabecalho .menu li a:hover {
+	background-color: #d85443;
+	color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #161212;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
